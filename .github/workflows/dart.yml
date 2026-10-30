@@ -39,5 +39,5 @@ jobs:
       - name: Upload release APKs
         uses: actions/upload-artifact@v4
         with:
-          name: bus-timetable-release-apks
+          name: plone-news-release-apks
           path: build/app/outputs/flutter-apk/*.apk
