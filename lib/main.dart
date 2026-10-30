@@ -9,7 +9,7 @@ void main() {
 
 Future<List<dynamic>> fetchNews() async {
   final uri = Uri.parse(
-    'http://10.163.138.218:8080/Plone/@search'
+    'http://10.163.138.218:8081/Plone/@search'
     '?portal_type=News%20Item&review_state=published',
   );
 
